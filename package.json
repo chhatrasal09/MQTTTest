@@ -1,0 +1,13 @@
+{
+  "name": "mqtttest",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "echo \"Error : no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "~4.16.0",
+    "mqtt": "^2.18.7",
+    "mosca": "^2.8.3"
+  }
+}
