@@ -1,7 +1,6 @@
 let mosca = require('mosca');
 
 let settings = {
-    host : "192.168.2.102",
     port: 1883
 };
 
@@ -40,7 +39,7 @@ server.on('clientDisconnected', function (client) {
 });
 
 server.on('published', function (packet, client) {
-    console.log(packet);
+    // console.log(packet);
     console.log(client);
 });
 
